@@ -1,0 +1,40 @@
+Microsoft Windows [Version 10.0.18362.418]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2019. Все права защищены.
+
+C:\Users\VoodooPEOPLE>cd
+C:\Users\VoodooPEOPLE
+
+C:\Users\VoodooPEOPLE>git clonhttps://github.com/voodoopeople42/Vprojecte
+error: cannot spawn git-clonhttps://github.com/voodoopeople42/Vprojecte: Invalid argument
+
+C:\Users\VoodooPEOPLE>git clone https://github.com/voodoopeople42/Vproject
+Cloning into 'Vproject'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+
+C:\Users\VoodooPEOPLE>cd Vproject
+
+C:\Users\VoodooPEOPLE\Vproject>ls
+"ls" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\VoodooPEOPLE\Vproject>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 6E10-366B
+
+ Содержимое папки C:\Users\VoodooPEOPLE\Vproject
+
+24.10.2019  19:50    <DIR>          .
+24.10.2019  19:50    <DIR>          ..
+24.10.2019  19:50             1 307 .gitignore
+24.10.2019  19:50             1 092 LICENSE
+24.10.2019  19:50                10 README.md
+               3 файлов          2 409 байт
+               2 папок  257 526 038 528 байт свободно
+
+C:\Users\VoodooPEOPLE\Vproject>code .
+
+C:\Users\VoodooPEOPLE\Vproject>
