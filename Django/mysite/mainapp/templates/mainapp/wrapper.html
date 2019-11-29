@@ -6,12 +6,25 @@
   <meta http-equiv="Content-Type" content="text/html">
   <title>ДАРОВА</title>
   {% load staticfiles %}
-  <link rel="stylesheet" href={% static 'css/bootstrap.min.css' %}"
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"
   type="text/css">
 </head>
-<body style="background: silver">
-  {% block content %}
+<body>
+<div class="jumbotron">
+  <div class="container">
+    <h1> Александр Блок </h1>
+    {% block content %}
+    {% endblock %}
+      <p>
+        <a href="/" class="btn btn-success btm-lg">Главная Страница</a>
+        <a href="/more" class="btn btn-primary btn-lg">Больше &raquo;</a>
+        <a href="/contact" class="btn btn-info btn-lg"> Другие Авторы</a>
+      </p>
+    </div>
+  </div>
 
-  {% endblock %}
+
+
+
 </body>
 </html>
